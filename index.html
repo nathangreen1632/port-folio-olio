@@ -14,7 +14,7 @@
     <header>
     <h1>Nathan Green</h1>
     <nav>
-      <ul>
+      <ul class="flex">
         <li><a href="#about">About Me</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact Me</a></li>
@@ -22,12 +22,12 @@
       </ul>
     </nav>
   </header>
-
+<div class="hero-banner"></div>
   <main>
     <section class="page-section">
-      <article>
-        <h2>About Me</h2>
-        <div>
+      <h2>About Me</h2>
+      <article class="w-80">
+        <div >
           <p>Hi, I'm Nathan. I'm a web developer based in Kyle, Texas. I have experience working with HTML, CSS, and
             JavaScript. </p>
 
@@ -35,16 +35,18 @@
             consectetur culpa, doloremque saepe optio tempore, ab natus aspernatur quae neque officiis,
             nam consequuntur fugit voluptate sapiente ratione?</p>
         </div>
+      </article>
     </section>
 
     <section class="page-section">
+      <h2 id="work">Work</h2>
       <div class="flex-container">
-      <h2>Work</h2>
+
+      <div class="flex-item react-calc">
+        <h3>React Calculator</h3>
+      </div>
         <div class="flex-item run-buddy">
           <h3>Run Buddy</h3>
-        </div>
-        <div class="flex-item react-calc">
-          <h3>React Calculator</h3>
         </div>
         <div class="flex-item led-wall">
           <h3>LED Wall</h3>
@@ -59,8 +61,8 @@
     </section>
 
     <section class="page-section">
-      <div class="contact">
       <h2>Contact Me</h2>
+      <div class="contact" id="contact">
       <address>
       <a href="mailto:blank@blank.com">Email Me</a>
       <a href="tel:555-555-5555">Call Me</a>
@@ -70,7 +72,7 @@
       </div>
     </section>
   </main>
-  </div>
+  </main>
 </body>
 
 </html>
